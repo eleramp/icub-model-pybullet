@@ -5305,6 +5305,14 @@
       </joint>
       <link name='r_hand::r_ail1'>
         <pose frame=''>-0.037545 0.097989 -0.193357 -3.04607 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5334,35 +5342,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_ail1.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_aij3' type='revolute'>
@@ -5427,6 +5406,14 @@
       </joint>
       <link name='r_hand::r_ail2'>
         <pose frame=''>-0.037111 0.097988 -0.219253 -3.04607 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5456,35 +5443,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_ail2.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_aij4' type='revolute'>
@@ -5519,6 +5477,14 @@
       </joint>
       <link name='r_hand::r_ail3'>
         <pose frame=''>-0.036744 0.097988 -0.24125 -3.04607 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.9</lateral_friction>
+          <rolling_friction>0.9</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5548,33 +5514,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_ail3.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.5</mu>
-                <mu2>0.5</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_aij5' type='revolute'>
@@ -5653,6 +5592,14 @@
       </joint>
       <link name='r_hand::r_lil1'>
         <pose frame=''>0.014208 0.09678 -0.191348 -3.05467 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5682,35 +5629,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_lil1.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_lij3' type='revolute'>
@@ -5745,6 +5663,14 @@
       </joint>
       <link name='r_hand::r_lil2'>
         <pose frame=''>0.014573 0.09678 -0.213144 -3.05467 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5774,35 +5700,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_lil2.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_lij4' type='revolute'>
@@ -5837,6 +5734,14 @@
       </joint>
       <link name='r_hand::r_lil3'>
         <pose frame=''>0.01489 0.09678 -0.232141 -3.05467 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5866,33 +5771,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_lil3.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.5</mu>
-                <mu2>0.5</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_lij5' type='revolute'>
@@ -5971,6 +5849,14 @@
       </joint>
       <link name='r_hand::r_ml1'>
         <pose frame=''>-0.020805 0.099252 -0.194572 0.008015 1.57001 -3.13278</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6000,35 +5886,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_ml1.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_mj3' type='revolute'>
@@ -6063,6 +5920,14 @@
       </joint>
       <link name='r_hand::r_ml2'>
         <pose frame=''>-0.020828 0.099252 -0.223072 0.008015 1.57001 -3.13278</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6092,35 +5957,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_ml2.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_mj4' type='revolute'>
@@ -6155,6 +5991,14 @@
       </joint>
       <link name='r_hand::r_ml3'>
         <pose frame=''>-0.020846 0.099251 -0.247072 0.008015 1.57001 -3.13278</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6184,33 +6028,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_ml3.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.5</mu>
-                <mu2>0.5</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_mj5' type='revolute'>
@@ -6289,6 +6106,14 @@
       </joint>
       <link name='r_hand::r_ril1'>
         <pose frame=''>-0.004775 0.098515 -0.193234 -3.05509 1.56289 -3e-06</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6318,35 +6143,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_ril1.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_rij3' type='revolute'>
@@ -6381,6 +6177,14 @@
       </joint>
       <link name='r_hand::r_ril2'>
         <pose frame=''>-0.00457 0.098515 -0.219133 -3.05509 1.56289 -3e-06</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6410,35 +6214,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_ril2.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_rij4' type='revolute'>
@@ -6473,6 +6248,14 @@
       </joint>
       <link name='r_hand::r_ril3'>
         <pose frame=''>-0.004396 0.098515 -0.241133 -3.05509 1.56289 -3e-06</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6502,33 +6285,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_ril3.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.5</mu>
-                <mu2>0.5</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_rij5' type='revolute'>
@@ -6563,6 +6319,14 @@
       </joint>
       <link name='r_hand::r_tl0'>
         <pose frame=''>-0.023114 0.08925 -0.15287 -0.078597 0.49671 -3.14079</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6592,35 +6356,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_tl0.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='r_tl0_fixed_joint_lump__r_tl1_visual_1'>
           <pose frame=''>0.021 0.0056 -0 -1.5708 0 0</pose>
@@ -6702,6 +6437,14 @@
       </joint>
       <link name='r_hand::r_tl2'>
         <pose frame=''>-0.041363 0.083653 -0.163264 -1.64939 0.49671 -3.14079</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6731,35 +6474,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_tl2.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_tj4' type='revolute'>
@@ -6794,6 +6508,14 @@
       </joint>
       <link name='r_hand::r_tl3'>
         <pose frame=''>-0.064221 0.083634 -0.175653 -1.64939 0.49671 -3.14079</pose>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6823,35 +6545,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_tl3.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_tj5' type='revolute'>
@@ -6885,6 +6578,14 @@
         </physics>
       </joint>
       <link name='r_hand::r_tl4'>
+        <contact>
+          <friction_anchor/>
+          <stiffness>30000.0</stiffness>
+          <damping>1000.0</damping>
+          <spinning_friction>0.1</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.8</rolling_friction>
+        </contact>
         <pose frame=''>-0.083562 0.083619 -0.186138 -1.64939 0.49671 -3.14079</pose>
         <inertial>
           <pose frame=''>0 0 0 0 -0 0</pose>
@@ -6915,33 +6616,6 @@
               <uri>/meshes/upmc/collision/r_hand/r_tl4.dae</uri>
             </mesh>
           </geometry>
-          <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.5</mu>
-                <mu2>0.5</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
       </link>
       <joint name='r_hand::r_tj6' type='revolute'>
