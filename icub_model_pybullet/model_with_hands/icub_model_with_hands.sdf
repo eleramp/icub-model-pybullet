@@ -5307,8 +5307,7 @@
         <pose frame=''>-0.037545 0.097989 -0.193357 -3.04607 1.55409 0.000418</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+          
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -5408,8 +5407,7 @@
         <pose frame=''>-0.037111 0.097988 -0.219253 -3.04607 1.55409 0.000418</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -5479,8 +5477,7 @@
         <pose frame=''>-0.036744 0.097988 -0.24125 -3.04607 1.55409 0.000418</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.9</lateral_friction>
           <rolling_friction>0.9</rolling_friction>
@@ -5594,8 +5591,7 @@
         <pose frame=''>0.014208 0.09678 -0.191348 -3.05467 1.55409 0.000418</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -5665,8 +5661,7 @@
         <pose frame=''>0.014573 0.09678 -0.213144 -3.05467 1.55409 0.000418</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -5736,8 +5731,7 @@
         <pose frame=''>0.01489 0.09678 -0.232141 -3.05467 1.55409 0.000418</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -5851,8 +5845,7 @@
         <pose frame=''>-0.020805 0.099252 -0.194572 0.008015 1.57001 -3.13278</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -5922,8 +5915,7 @@
         <pose frame=''>-0.020828 0.099252 -0.223072 0.008015 1.57001 -3.13278</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -5993,8 +5985,7 @@
         <pose frame=''>-0.020846 0.099251 -0.247072 0.008015 1.57001 -3.13278</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -6108,8 +6099,7 @@
         <pose frame=''>-0.004775 0.098515 -0.193234 -3.05509 1.56289 -3e-06</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -6179,8 +6169,7 @@
         <pose frame=''>-0.00457 0.098515 -0.219133 -3.05509 1.56289 -3e-06</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -6250,8 +6239,7 @@
         <pose frame=''>-0.004396 0.098515 -0.241133 -3.05509 1.56289 -3e-06</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -6321,8 +6309,7 @@
         <pose frame=''>-0.023114 0.08925 -0.15287 -0.078597 0.49671 -3.14079</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -6439,8 +6426,7 @@
         <pose frame=''>-0.041363 0.083653 -0.163264 -1.64939 0.49671 -3.14079</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -6510,8 +6496,7 @@
         <pose frame=''>-0.064221 0.083634 -0.175653 -1.64939 0.49671 -3.14079</pose>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
@@ -6580,8 +6565,7 @@
       <link name='r_hand::r_tl4'>
         <contact>
           <friction_anchor/>
-          <stiffness>30000.0</stiffness>
-          <damping>1000.0</damping>
+
           <spinning_friction>0.1</spinning_friction>
           <lateral_friction>0.8</lateral_friction>
           <rolling_friction>0.8</rolling_friction>
