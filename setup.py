@@ -11,6 +11,6 @@ setup(
   python_requires='>=3.6',
   keywords="sdf icub models robot robotics humanoid simulation pybullet",
   packages=find_packages(),
-  package_data={'': ['meshes/**/*', 'icub_model.sdf']},
+  package_data={'': ['meshes/**/*', 'icub_model.sdf', 'model_with_hands/**/*', 'franka_panda/*']},
   url="https://github.com/diegoferigo/icub-model-pybullet",
 )
