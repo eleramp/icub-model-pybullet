@@ -1,4 +1,20 @@
+import os
 from setuptools import setup, find_packages
+
+setup_py_dir = os.path.dirname(os.path.realpath(__file__))
+need_files = []
+datadir = "icub_model_pybullet"
+
+hh = setup_py_dir + "/" + datadir
+
+for root, dirs, files in os.walk(hh):
+  for fn in files:
+    ext = os.path.splitext(fn)[1][1:]
+    if ext and ext in 'urdf sdf xml yaml stl ini dae'.split(
+    ):
+      fn = root + "/" + fn
+      need_files.append(fn[1 + len(hh):])
+
 
 setup(
   name="icub-model-pybullet",
@@ -11,6 +27,6 @@ setup(
   python_requires='>=3.6',
   keywords="sdf icub models robot robotics humanoid simulation pybullet",
   packages=find_packages(),
-  package_data={'': ['meshes/**/*', 'icub_model.sdf', 'model_with_hands/**/*', 'franka_panda/*']},
+  package_data={'icub_model_pybullet': need_files},
   url="https://github.com/diegoferigo/icub-model-pybullet",
 )
