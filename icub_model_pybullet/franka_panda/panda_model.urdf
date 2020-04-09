@@ -258,6 +258,7 @@
       <stiffness value="30000.0"/>
       <damping value="1000.0"/>
       <spinning_friction value="0.1"/>
+      <rolling_friction value="0.1"/>
       <lateral_friction value="1.0"/>
     </contact>
   	<inertial>
@@ -284,6 +285,7 @@
       <stiffness value="30000.0"/>
       <damping value="1000.0"/>
       <spinning_friction value="0.1"/>
+      <rolling_friction value="0.1"/>
       <lateral_friction value="1.0"/>
     </contact>
 
