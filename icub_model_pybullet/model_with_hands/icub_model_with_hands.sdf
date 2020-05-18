@@ -22,18 +22,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_root_link_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='base_link_fixed_joint_lump__root_link_visual'>
@@ -106,18 +94,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_hip_1_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_hip_1_visual'>
@@ -190,18 +166,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_hip_2_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_hip_2_visual'>
@@ -268,18 +232,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_upper_thigh_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_hip_3_visual'>
@@ -352,18 +304,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_thigh_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_upper_leg_visual'>
@@ -436,18 +376,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_shank_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_lower_leg_visual'>
@@ -520,18 +448,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_ankle_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_ankle_1_visual'>
@@ -604,18 +520,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_foot_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_ankle_2_visual'>
@@ -681,21 +585,6 @@
               <size>0.16 0.072 0.001</size>
             </box>
           </geometry>
-          <surface>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-          </surface>
           <max_contacts>4</max_contacts>
         </collision>
         <visual name='l_foot_visual'>
@@ -769,18 +658,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_hip_1_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_hip_1_visual'>
@@ -853,18 +730,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_hip_2_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_hip_2_visual'>
@@ -931,18 +796,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_upper_thigh_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_hip_3_visual'>
@@ -1015,18 +868,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_thigh_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_upper_leg_visual'>
@@ -1099,18 +940,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_shank_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_lower_leg_visual'>
@@ -1183,18 +1012,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_ankle_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_ankle_1_visual'>
@@ -1267,18 +1084,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_foot_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_ankle_2_visual'>
@@ -1344,21 +1149,6 @@
               <size>0.16 0.072 0.001</size>
             </box>
           </geometry>
-          <surface>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-          </surface>
           <max_contacts>4</max_contacts>
         </collision>
         <visual name='r_foot_visual'>
@@ -1432,18 +1222,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_lap_belt_1_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='torso_1_visual'>
@@ -1516,18 +1294,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_lap_belt_2_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='torso_2_visual'>
@@ -1600,18 +1366,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_chest_bb_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='chest_visual'>
@@ -1684,18 +1438,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_shoulder_1_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_shoulder_1_visual'>
@@ -1768,18 +1510,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_shoulder_2_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_shoulder_2_visual'>
@@ -1852,18 +1582,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_upper_arm_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_shoulder_3_visual'>
@@ -1930,18 +1648,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_elbow_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_upper_arm_visual'>
@@ -2014,18 +1720,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_elbow_prosup_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_elbow_1_visual'>
@@ -2098,18 +1792,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_forearm_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_forearm_visual'>
@@ -2182,18 +1864,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_l_wrist_pitch_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='l_wrist_1_visual'>
@@ -2296,18 +1966,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_neck_1_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='neck_1_visual'>
@@ -2380,18 +2038,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_neck_2_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='neck_2_visual'>
@@ -2464,18 +2110,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_head_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='head_visual'>
@@ -2548,18 +2182,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_shoulder_1_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_shoulder_1_visual'>
@@ -2632,18 +2254,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_shoulder_2_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_shoulder_2_visual'>
@@ -2716,18 +2326,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_upper_arm_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_shoulder_3_visual'>
@@ -2794,18 +2392,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_elbow_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_upper_arm_visual'>
@@ -2878,18 +2464,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_elbow_prosup_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_elbow_1_visual'>
@@ -2962,18 +2536,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_forearm_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_forearm_visual'>
@@ -3046,18 +2608,6 @@
               <uri>/meshes/simmechanics/sim_sea_2-5_r_wrist_pitch_prt-binary.stl</uri>
             </mesh>
           </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
           <max_contacts>10</max_contacts>
         </collision>
         <visual name='r_wrist_1_visual'>
@@ -3112,6 +2662,12 @@
         <pose relative_to='__model__'>-0.01075 -0.110259 -0.11428 1.57 -0 1.57</pose>
       </frame>
       <link name='l_hand::l_hand_base_link'>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0.011682 -0.051355 -0.000577 0 -0 0</pose>
           <mass>0.01</mass>
@@ -3142,34 +2698,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__lindexbase_visual_1'>
           <pose>0.01225 -0.0643 -0.027 -1.4749 -0.072507 -1.57079</pose>
@@ -3189,34 +2717,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__lail0_visual_2'>
           <pose>0.01225 -0.075498 -0.027259 0.0959 0.017493 -1.57079</pose>
@@ -3236,34 +2736,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__llittlebase_visual_3'>
           <pose>0.0135 -0.06225 0.02475 -1.6581 -0.017493 -1.57079</pose>
@@ -3283,34 +2755,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__llil0_visual_4'>
           <pose>0.0135 -0.077048 0.025009 -0.0873 -0.017493 -1.57079</pose>
@@ -3330,34 +2774,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__lmiddlebase_visual_5'>
           <pose>0.011 -0.0653 -0.01 -1.5708 7e-06 -1.57079</pose>
@@ -3377,34 +2793,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__lml0_visual_6'>
           <pose>0.011 -0.0803 -0.01 0 7e-06 -1.57079</pose>
@@ -3424,34 +2812,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__lringbase_visual_7'>
           <pose>0.01175 -0.06415 0.0059 -1.6581 -0.008693 -1.57079</pose>
@@ -3471,34 +2831,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__lril0_visual_8'>
           <pose>0.01175 -0.078949 0.006029 -0.0873 -0.008693 -1.57079</pose>
@@ -3518,34 +2850,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <pose>-0.01075 -0.110259 -0.11428 1.57 -0 1.57</pose>
         <self_collide>0</self_collide>
@@ -3601,6 +2905,12 @@
       </joint>
       <link name='l_hand::l_ail1'>
         <pose>-0.037939 -0.097987 -0.1898 -3.04607 1.5541 3.14042</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -3631,34 +2941,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -3695,6 +2977,12 @@
       </joint>
       <link name='l_hand::l_ail2'>
         <pose>-0.038371 -0.097987 -0.215696 -3.04607 1.5541 3.14042</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -3725,34 +3013,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -3789,6 +3049,12 @@
       </joint>
       <link name='l_hand::l_ail3'>
         <pose>-0.038739 -0.097987 -0.237692 -3.04607 1.5541 3.14042</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -3819,34 +3085,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -3930,6 +3168,12 @@
       </joint>
       <link name='l_hand::l_lil1'>
         <pose>0.014331 -0.096779 -0.191308 -0.086954 1.55251 -0.00045</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -3960,34 +3204,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -4024,6 +3240,12 @@
       </joint>
       <link name='l_hand::l_lil2'>
         <pose>0.014729 -0.096778 -0.213104 -0.086954 1.55251 -0.00045</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -4054,34 +3276,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -4118,6 +3312,12 @@
       </joint>
       <link name='l_hand::l_lil3'>
         <pose>0.015078 -0.096779 -0.2321 -0.086954 1.55251 -0.00045</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -4148,34 +3348,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -4259,6 +3431,12 @@
       </joint>
       <link name='l_hand::l_ml1'>
         <pose>-0.020677 -0.099251 -0.194588 0.008015 1.57001 0.007219</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -4289,34 +3467,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -4353,6 +3503,12 @@
       </joint>
       <link name='l_hand::l_ml2'>
         <pose>-0.020655 -0.099251 -0.223088 0.008015 1.57001 0.007219</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -4383,34 +3539,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -4447,6 +3575,12 @@
       </joint>
       <link name='l_hand::l_ml3'>
         <pose>-0.020636 -0.09925 -0.247088 0.008015 1.57001 0.007219</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -4477,34 +3611,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -4588,6 +3694,12 @@
       </joint>
       <link name='l_hand::l_ril1'>
         <pose>-0.004649 -0.098514 -0.193224 -0.086633 1.56131 -0.00013</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -4618,34 +3730,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -4682,6 +3766,12 @@
       </joint>
       <link name='l_hand::l_ril2'>
         <pose>-0.004403 -0.098514 -0.219123 -0.086633 1.56131 -0.00013</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -4712,34 +3802,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -4776,6 +3838,12 @@
       </joint>
       <link name='l_hand::l_ril3'>
         <pose>-0.004195 -0.098513 -0.241123 -0.086633 1.56131 -0.00013</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -4806,34 +3874,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -4870,6 +3910,12 @@
       </joint>
       <link name='l_hand::l_tl0'>
         <pose>-0.023053 -0.089249 -0.15289 0.078597 0.498303 3.1408</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -4900,34 +3946,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='l_tl0_fixed_joint_lump__l_tl1_visual_1'>
           <pose>0.021 -0.0056 0 -1.5708 0 0</pose>
@@ -4947,34 +3965,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -5011,6 +4001,12 @@
       </joint>
       <link name='l_hand::l_tl2'>
         <pose>-0.041285 -0.083652 -0.163312 -1.49221 0.498303 3.1408</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5041,34 +4037,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -5105,6 +4073,12 @@
       </joint>
       <link name='l_hand::l_tl3'>
         <pose>-0.064123 -0.083633 -0.175739 -1.49221 0.498303 3.1408</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5135,34 +4109,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -5199,6 +4145,12 @@
       </joint>
       <link name='l_hand::l_tl4'>
         <pose>-0.083448 -0.083618 -0.186253 -1.49221 0.498303 3.1408</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5229,34 +4181,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -5295,6 +4219,12 @@
         <pose relative_to='__model__'>-0.01075 0.11026 -0.11428 1.57 0 -1.57</pose>
       </frame>
       <link name='r_hand::r_hand_base_link'>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0.011682 -0.051682 0.000577 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5325,34 +4255,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__rindexbase_visual_1'>
           <pose>0.01225 -0.0643 0.027 -1.4749 0.017507 -1.57079</pose>
@@ -5372,34 +4274,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__rail0_visual_2'>
           <pose>0.01225 -0.079098 0.026741 0.0959 0.017507 -1.57079</pose>
@@ -5419,34 +4293,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__rlittlebase_visual_3'>
           <pose>0.0135 -0.06225 -0.02475 -1.4835 0.017507 -1.57079</pose>
@@ -5466,34 +4312,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__rlil0_visual_4'>
           <pose>0.0135 -0.077048 -0.025009 0.0873 0.017507 -1.57079</pose>
@@ -5513,34 +4331,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__rmiddlebase_visual_5'>
           <pose>0.011 -0.0653 0.01 -1.5708 7e-06 -1.57079</pose>
@@ -5560,34 +4350,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__rml0_visual_6'>
           <pose>0.011 -0.0803 0.01 0 7e-06 -1.57079</pose>
@@ -5607,34 +4369,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__rringbase_visual_7'>
           <pose>0.01175 -0.06415 -0.0059 -1.4835 0.008707 -1.57079</pose>
@@ -5654,34 +4388,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='base_link_fixed_joint_lump__rril0_visual_8'>
           <pose>0.01175 -0.078949 -0.006029 0.0873 0.008707 -1.57079</pose>
@@ -5701,34 +4407,6 @@
             </mesh>
           </geometry>
           <max_contacts>4</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <pose>-0.01075 0.11026 -0.11428 1.57 0 -1.57</pose>
         <self_collide>0</self_collide>
@@ -5784,6 +4462,12 @@
       </joint>
       <link name='r_hand::r_ail1'>
         <pose>-0.037544 0.097989 -0.193357 -3.04607 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5814,34 +4498,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -5908,6 +4564,12 @@
       </joint>
       <link name='r_hand::r_ail2'>
         <pose>-0.037111 0.097988 -0.219253 -3.04607 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -5938,34 +4600,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -6002,6 +4636,12 @@
       </joint>
       <link name='r_hand::r_ail3'>
         <pose>-0.036743 0.097988 -0.24125 -3.04607 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6032,34 +4672,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -6143,6 +4755,12 @@
       </joint>
       <link name='r_hand::r_lil1'>
         <pose>0.014208 0.09678 -0.191348 -3.05467 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6173,34 +4791,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -6237,6 +4827,12 @@
       </joint>
       <link name='r_hand::r_lil2'>
         <pose>0.014573 0.09678 -0.213144 -3.05467 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6267,34 +4863,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -6331,6 +4899,12 @@
       </joint>
       <link name='r_hand::r_lil3'>
         <pose>0.01489 0.09678 -0.232141 -3.05467 1.55409 0.000418</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6361,34 +4935,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -6472,6 +5018,12 @@
       </joint>
       <link name='r_hand::r_ml1'>
         <pose>-0.020805 0.099252 -0.194572 0.008015 1.57001 -3.13278</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6502,34 +5054,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -6566,6 +5090,12 @@
       </joint>
       <link name='r_hand::r_ml2'>
         <pose>-0.020828 0.099252 -0.223072 0.008015 1.57001 -3.13278</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6596,34 +5126,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -6660,6 +5162,12 @@
       </joint>
       <link name='r_hand::r_ml3'>
         <pose>-0.020846 0.099251 -0.247072 0.008015 1.57001 -3.13278</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6690,34 +5198,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -6801,6 +5281,12 @@
       </joint>
       <link name='r_hand::r_ril1'>
         <pose>-0.004775 0.098515 -0.193234 -3.05509 1.56289 -3e-06</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6831,34 +5317,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -6895,6 +5353,12 @@
       </joint>
       <link name='r_hand::r_ril2'>
         <pose>-0.00457 0.098515 -0.219133 -3.05509 1.56289 -3e-06</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -6925,34 +5389,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -6989,6 +5425,12 @@
       </joint>
       <link name='r_hand::r_ril3'>
         <pose>-0.004396 0.098515 -0.241133 -3.05509 1.56289 -3e-06</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -7019,34 +5461,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -7083,6 +5497,12 @@
       </joint>
       <link name='r_hand::r_tl0'>
         <pose>-0.023114 0.08925 -0.15287 -0.078597 0.49671 -3.14079</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -7113,34 +5533,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <visual name='r_tl0_fixed_joint_lump__r_tl1_visual_1'>
           <pose>0.021 0.0056 -0 -1.5708 0 0</pose>
@@ -7160,34 +5552,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -7224,6 +5588,12 @@
       </joint>
       <link name='r_hand::r_tl2'>
         <pose>-0.041363 0.083653 -0.163264 -1.64939 0.49671 -3.14079</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -7254,34 +5624,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -7318,6 +5660,12 @@
       </joint>
       <link name='r_hand::r_tl3'>
         <pose>-0.064221 0.083634 -0.175653 -1.64939 0.49671 -3.14079</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -7348,34 +5696,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
@@ -7412,6 +5732,12 @@
       </joint>
       <link name='r_hand::r_tl4'>
         <pose>-0.083562 0.083619 -0.186138 -1.64939 0.49671 -3.14079</pose>
+        <contact>
+          <friction_anchor/>
+          <spinning_friction>0.001</spinning_friction>
+          <lateral_friction>0.8</lateral_friction>
+          <rolling_friction>0.001</rolling_friction>
+        </contact>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
           <mass>0.01</mass>
@@ -7442,34 +5768,6 @@
             </mesh>
           </geometry>
           <max_contacts>1</max_contacts>
-          <surface>
-            <contact>
-              <ode>
-                <soft_erp>0</soft_erp>
-                <soft_cfm>0.01</soft_cfm>
-                <kp>1e+06</kp>
-                <kd>100</kd>
-                <max_vel>0.001</max_vel>
-                <min_depth>0.001</min_depth>
-              </ode>
-            </contact>
-            <friction>
-              <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
-                <fdir1>0 0 0</fdir1>
-                <slip1>0</slip1>
-                <slip2>0</slip2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-          </surface>
         </collision>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
